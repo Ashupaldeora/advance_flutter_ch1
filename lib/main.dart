@@ -13,8 +13,8 @@ class ContactDiary extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: lightTheme(),
-      darkTheme: darkTheme(),
+      theme: GlobalTheme.lightTheme(),
+      darkTheme: GlobalTheme.darkTheme(),
       themeMode: ThemeMode.system,
       home: const HomeScreen(),
     );
