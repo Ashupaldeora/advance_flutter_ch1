@@ -21,11 +21,11 @@ class GlobalTheme {
         secondaryHeaderColor: Colors.red,
         canvasColor: Colors.white,
         scaffoldBackgroundColor: Colors.white,
-        appBarTheme: AppBarTheme(backgroundColor: Colors.white),
+        appBarTheme: AppBarTheme(
+            backgroundColor: Colors.white, foregroundColor: Colors.blue),
         textTheme: const TextTheme(
             bodyMedium: TextStyle(
-                color: Colors.black,
-                fontWeight: FontWeight.w500,
-                fontSize: 25)));
+                color: Colors.black, fontWeight: FontWeight.w500, fontSize: 25),
+            bodySmall: TextStyle(color: Colors.white, fontSize: 20)));
   }
 }
