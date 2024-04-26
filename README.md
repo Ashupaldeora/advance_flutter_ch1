@@ -30,4 +30,11 @@
 <a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/stepper/view">-> See The Code <-</a>
 </div>
 
+<h1></h1>
+<h3 align="center"><i>3. Provider Tree</i></h3>
+<h1></h1>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/509e39bd-651f-4694-b2f3-d7756222e7d4" height=450px hspace=20>
+ 
+</div>
 
