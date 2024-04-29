@@ -10,9 +10,16 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(
-    create: (context) => ChangeThemeProvider(),
-    child: const ContactDiary(),
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(
+        create: (context) => CounterProvider(),
+      ),
+      ChangeNotifierProvider(
+        create: (context) => ChangeThemeProvider(),
+      )
+    ],
+    child: ContactDiary(),
   ));
 }
 
@@ -28,7 +35,7 @@ class ContactDiary extends StatelessWidget {
       themeMode: Provider.of<ChangeThemeProvider>(context).isDark
           ? ThemeMode.dark
           : ThemeMode.light,
-      home: const ChangeThemeScreen(),
+      home: const CounterApp(),
     );
   }
 }
