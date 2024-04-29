@@ -1,3 +1,5 @@
+import 'package:advance_flutter_ch1/screens/change_Theme/provider/change_theme_provider.dart';
+import 'package:advance_flutter_ch1/screens/change_Theme/view/change_theme_screen.dart';
 import 'package:advance_flutter_ch1/screens/counter/provider/counter_provider.dart';
 import 'package:advance_flutter_ch1/screens/counter/view/counter_screen.dart';
 import 'package:advance_flutter_ch1/screens/home/view/components/light_dark_theme.dart';
@@ -9,7 +11,7 @@ import 'package:provider/provider.dart';
 
 void main() {
   runApp(ChangeNotifierProvider(
-    create: (context) => CounterProvider(),
+    create: (context) => ChangeThemeProvider(),
     child: const ContactDiary(),
   ));
 }
@@ -23,8 +25,10 @@ class ContactDiary extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: GlobalTheme.lightTheme(),
       darkTheme: GlobalTheme.darkTheme(),
-      themeMode: ThemeMode.system,
-      home: const CounterApp(),
+      themeMode: Provider.of<ChangeThemeProvider>(context).isDark
+          ? ThemeMode.dark
+          : ThemeMode.light,
+      home: const ChangeThemeScreen(),
     );
   }
 }
