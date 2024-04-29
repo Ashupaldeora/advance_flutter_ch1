@@ -46,7 +46,15 @@
   <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/cf0bbd73-8883-4aaa-a252-35f1df8bf988" height=450px hspace=20>
   <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/96c17f0d-2f9c-44d5-ac16-45cf25f66ad4"  hspace=20>
 </div>
+<h1></h1>
+<h3 align="center"><i>5. Counter App with Provider</i></h3>
+<h1></h1>
+<div align="center">
+  <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/51311a4f-a983-40cf-92e8-34d5aa168839"  hspace=20>
+ 
+</div>
     
+
 
 
 
