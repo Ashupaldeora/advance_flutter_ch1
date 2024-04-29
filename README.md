@@ -38,3 +38,17 @@
  
 </div>
 
+<h1></h1>
+<h3 align="center"><i>4. Provider & Change Theme using Provider</i></h3>
+<h1></h1>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/16b339fe-7ac3-4f62-9c73-8e7470025861" height=450px hspace=20>
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/cf0bbd73-8883-4aaa-a252-35f1df8bf988" height=450px hspace=20>
+  <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/96c17f0d-2f9c-44d5-ac16-45cf25f66ad4"  hspace=20>
+</div>
+    
+
+
+
+
+
