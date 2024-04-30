@@ -4,6 +4,8 @@ import 'package:advance_flutter_ch1/screens/counter/provider/counter_provider.da
 import 'package:advance_flutter_ch1/screens/counter/view/counter_screen.dart';
 import 'package:advance_flutter_ch1/screens/home/view/components/light_dark_theme.dart';
 import 'package:advance_flutter_ch1/screens/home/view/home_screen.dart';
+import 'package:advance_flutter_ch1/screens/intro/Providers/intro_provider.dart';
+import 'package:advance_flutter_ch1/screens/intro/view/intro_screen_1.dart';
 import 'package:advance_flutter_ch1/screens/stepper/view/stepper_screen.dart';
 import 'package:advance_flutter_ch1/screens/stepper/view/stepper_screen2.dart';
 import 'package:flutter/material.dart';
@@ -17,9 +19,12 @@ void main() {
       ),
       ChangeNotifierProvider(
         create: (context) => ChangeThemeProvider(),
+      ),
+      ChangeNotifierProvider(
+        create: (context) => IntroProvider(),
       )
     ],
-    child: ContactDiary(),
+    child: const ContactDiary(),
   ));
 }
 
@@ -35,7 +40,9 @@ class ContactDiary extends StatelessWidget {
       themeMode: Provider.of<ChangeThemeProvider>(context).isDark
           ? ThemeMode.dark
           : ThemeMode.light,
-      home: const CounterApp(),
+      home: Provider.of<IntroProvider>(context, listen: true).isClicked
+          ? ChangeThemeScreen()
+          : IntroScreen1(),
     );
   }
 }

@@ -30,8 +30,8 @@ class GlobalTheme {
             backgroundColor: Colors.white, foregroundColor: Colors.black),
         textTheme: const TextTheme(
             bodyMedium: TextStyle(
-                color: Colors.black, fontWeight: FontWeight.w500, fontSize: 25),
-            bodySmall: TextStyle(color: Colors.black, fontSize: 20)),
+                color: Colors.black, fontWeight: FontWeight.w500, fontSize: 28),
+            bodySmall: TextStyle(color: Colors.grey, fontSize: 17)),
         colorScheme: ColorScheme.light(
           primary: Colors.purple,
           secondary: Colors.green,
