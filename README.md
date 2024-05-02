@@ -65,10 +65,27 @@
 <div align="center">
 <a href="https://github.com/Ashupaldeora/advance_flutter_ch1/blob/master/lib/screens/counter/view/counter_screen.dart">-> See The Code <-</a>
 </div>
-    
+
+   
+<h1></h1>
+<h3 align="center"><i>6. One Time Intro Screen in Flutter</i></h3>
+<h1></h1>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/06364c9e-0434-4c5c-b6c4-2bb5b46cf787" height=450px hspace=20>
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/add3a621-2922-4364-8cbe-136fb5b3e773" height=450px hspace=20>
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/dfe44335-f195-413d-8956-2b95f9d1a119" height=450px hspace=20>
+  <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/4eb81195-512c-4d9f-bd39-dda0ca53318e"  hspace=20>
 
 
 
+
+</div>
+
+###
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/intro">-> See The Code <-</a>
+</div>
 
 
 
