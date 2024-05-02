@@ -14,6 +14,7 @@ class IntroProvider extends ChangeNotifier {
     SharedPreferences preferences = await SharedPreferences.getInstance();
 
     isClicked = preferences.getBool('viewed') ?? false;
+    notifyListeners();
   }
 
   IntroProvider() {

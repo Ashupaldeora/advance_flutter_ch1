@@ -1,5 +1,6 @@
 import 'package:advance_flutter_ch1/screens/change_Theme/provider/change_theme_provider.dart';
 import 'package:advance_flutter_ch1/screens/change_Theme/view/change_theme_screen.dart';
+import 'package:advance_flutter_ch1/screens/contact_us/view/contact_us_screen.dart';
 import 'package:advance_flutter_ch1/screens/counter/provider/counter_provider.dart';
 import 'package:advance_flutter_ch1/screens/counter/view/counter_screen.dart';
 import 'package:advance_flutter_ch1/screens/home/view/components/light_dark_theme.dart';
@@ -40,9 +41,15 @@ class ContactDiary extends StatelessWidget {
       themeMode: Provider.of<ChangeThemeProvider>(context).isDark
           ? ThemeMode.dark
           : ThemeMode.light,
-      home: Provider.of<IntroProvider>(context, listen: true).isClicked
-          ? ChangeThemeScreen()
-          : IntroScreen1(),
+      // home: Provider.of<IntroProvider>(context, listen: true).isClicked
+      //     ? ChangeThemeScreen()
+      //     : IntroScreen1(),
+      initialRoute: '/contact',
+      routes: {
+        '/contact': (context) => ContactUs(),
+        '/changeTheme': (context) => ChangeThemeScreen(),
+        '/intro': (context) => IntroScreen1()
+      },
     );
   }
 }
