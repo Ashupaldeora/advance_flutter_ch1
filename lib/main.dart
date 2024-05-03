@@ -3,6 +3,9 @@ import 'package:advance_flutter_ch1/screens/change_Theme/view/change_theme_scree
 import 'package:advance_flutter_ch1/screens/contact_us/view/contact_us_screen.dart';
 import 'package:advance_flutter_ch1/screens/counter/provider/counter_provider.dart';
 import 'package:advance_flutter_ch1/screens/counter/view/counter_screen.dart';
+import 'package:advance_flutter_ch1/screens/gallery/providers/gallery_provider.dart';
+import 'package:advance_flutter_ch1/screens/gallery/view/gallery_screen.dart';
+import 'package:advance_flutter_ch1/screens/gallery/view/hidden_screen.dart';
 import 'package:advance_flutter_ch1/screens/home/view/components/light_dark_theme.dart';
 import 'package:advance_flutter_ch1/screens/home/view/home_screen.dart';
 import 'package:advance_flutter_ch1/screens/intro/Providers/intro_provider.dart';
@@ -23,7 +26,10 @@ void main() {
       ),
       ChangeNotifierProvider(
         create: (context) => IntroProvider(),
-      )
+      ),
+      ChangeNotifierProvider(
+        create: (context) => GalleryProvider(),
+      ),
     ],
     child: const ContactDiary(),
   ));
@@ -44,11 +50,13 @@ class ContactDiary extends StatelessWidget {
       // home: Provider.of<IntroProvider>(context, listen: true).isClicked
       //     ? ChangeThemeScreen()
       //     : IntroScreen1(),
-      initialRoute: '/contact',
+      initialRoute: '/gallery',
       routes: {
         '/contact': (context) => ContactUs(),
         '/changeTheme': (context) => ChangeThemeScreen(),
-        '/intro': (context) => IntroScreen1()
+        '/intro': (context) => IntroScreen1(),
+        '/gallery': (context) => GalleryScreen(),
+        '/hiddenGallery': (context) => HiddenScreen(),
       },
     );
   }
