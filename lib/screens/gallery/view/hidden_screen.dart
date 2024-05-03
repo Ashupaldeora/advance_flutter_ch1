@@ -12,7 +12,7 @@ class HiddenScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 80,
+        toolbarHeight: 79,
 
         centerTitle: true,
         // LEADING
