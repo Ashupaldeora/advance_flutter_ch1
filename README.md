@@ -92,7 +92,23 @@
 <h1></h1>
 <div align="center">
  
-  <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/87cb4a3e-0adf-4d90-a3c8-5ebc4ffe7e7c"  hspace=20>
+  <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/gallery"  hspace=20></video>
+</div>
+
+###
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/contact_us">-> See The Code <-</a>
+</div>
+
+
+<h1></h1>
+<h3 align="center"><i>8. Photo Gallery With Biometric Authentication</i></h3>
+<h1></h1>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/8c7e459f-507b-4fa0-ad71-1a46af071f32" height=450px hspace=20>
+  <img src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/30152a2e-c4c8-4ec9-a1f5-20f92b46c68f" height=450px hspace=20>
+  <video src="https://github.com/Ashupaldeora/advance_flutter_ch1/assets/143180848/9a11f69c-f9e6-4c6f-977e-8fc24bc2f130"  hspace=20>
 
 
 
@@ -102,8 +118,9 @@
 ###
 ###
 <div align="center">
-<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/contact_us">-> See The Code <-</a>
+<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/gallery">-> See The Code <-</a>
 </div>
+
 
 
 
