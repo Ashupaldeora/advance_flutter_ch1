@@ -118,7 +118,7 @@
 ###
 ###
 <div align="center">
-<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/intro">-> See The Code <-</a>
+<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/gallery">-> See The Code <-</a>
 </div>
 
 
